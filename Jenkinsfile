@@ -7,7 +7,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Checking out the source code...'
-                git url: 'https://github.com/mohanqalead/BDDProject.git', branch: 'main' // Replace with your repository URL
+                git url: 'https://github.com/mohanqalead/APIProject.git', branch: 'main' // Replace with your repository URL
             }
         }
 
