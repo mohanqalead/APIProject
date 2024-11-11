@@ -28,7 +28,7 @@ pipeline {
                 always {
                     echo 'Archiving test results and screenshots...'
                     junit '**/target/surefire-reports/*.xml' // Adjust path based on your project structure
-                    archiveArtifacts artifacts: '**/target/screenshots/*.png', allowEmptyArchive: true
+                   
                 }
             }
         }
